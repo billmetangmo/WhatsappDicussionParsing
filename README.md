@@ -10,11 +10,16 @@ Follow the steps here to get your chat history: https://faq.whatsapp.com/en/andr
 1. Download your WhatsApp discussion in your local computer
 
 2. Copy or move file discussion in your data folder
-We recommend you to create data/result directories inside this project ()and add it to your gitignore) for easy usage.
+We recommend you to create data/result directories inside this project and add it to your gitignore) for easy usage.
 
 3. Locate & replace input/output file location with your own
 
-4. Execute the MainClass.java from your IDE
+4. Execute the MainClass.java from your IDE. If you doon't have an IDE, you can do
+```sh
+   cd src/cm/getdataback/wmp
+   javac MainClass.java
+   java MainClass
+```
 
 5. Open your csv file with tool like Excel for dashboards
 
